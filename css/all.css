@@ -328,12 +328,16 @@ strong {}
 	background: #535e5e;
 	border: 1px solid #535e5e;
 }
+#content .monomuse_buy button span:hover{
+	color: #1cc1cb; 
+}
 #content .monomuse_buy button span{
 	font-size: 16px;
 	font-family: Arial,sans-serif;
 	font-weight: bold;
 	color: #fff; 
 	text-transform: uppercase;
+	cursor: pointer;
 }
 #content .monomuse_buy .fa-chevron-circle-right{
 	font-size: 16px;
@@ -446,6 +450,9 @@ strong {}
 	font: 10px verdana, sans-serif;
 	color: #a1a1a1;
 }
+#content .recent_posts a:hover{
+	color: #1cc1cb;
+}
 #content .recent_posts .fa-comment-o{
 	margin-right: 8px;
 }
@@ -489,6 +496,9 @@ strong {}
 #content .posts_right a{
 	font: 12px Verdana, sans-serif;
 	color: #a1a1a1;
+}
+#content .posts_right a:hover{
+	color: #1cc1cb;
 }
 #content .fa-plus-circle{
 	font-size: 20px;
@@ -561,6 +571,9 @@ strong {}
 	font:bold 12px/20px 'Myriad Pro', sans-serif;
 	line-height: 38px;
 	margin-left: 16px;
+}
+#content .about_us a:hover{
+	color: red;
 }
 #content .about_us .fa-plus-circle{
 	color: #fff;
@@ -733,6 +746,9 @@ strong {}
     height: 22px;
     margin-bottom: 10px;
 }
+#footer .social_icon ul li a:hover{
+	color: #1cc1cb;
+}
 #footer .social_icon .twitter{
     background: url(../images/sprite_social.png) no-repeat 0 0 ;
     text-indent: 39px;
@@ -799,6 +815,9 @@ strong {}
 #footer .categories a{
 	font: 12px/20px verdana, sans-serif;
 	color: #bbc1c1;
+}
+#footer .categories a:hover{
+	color: #1cc1cb;
 }
 #footer .categories ul li:before{
 	content: '\203a';
